@@ -1,0 +1,43 @@
+
+.error{
+    color:red;
+    font-size:15px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column ;
+
+}
+.btn{
+    align-self: flex-start;
+    margin-left: 10px;
+
+}
+
+.ref{
+    margin-left: 120px;
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 100px;
+}
+.container{
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+@media screen and (max-width: 600px) {
+    .container{
+        margin-top: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 0.9;
+
+    }
+}

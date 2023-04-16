@@ -8,6 +8,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+
+
 }
 #root{
     height:100vh;
@@ -18,40 +20,8 @@ body{
     justify-content:center;
 }
 
-.field-wrap{
-    position:relative;
-}
-
-.field-wrap label{
-    position:absolute;
-    left:35px;
-    top:38%;
-    transition:300ms ease-out;
-    font-size:17px;
-    font-weight:500;
-    color:rgba(0,0,0,0.7);
-}
-
-.field-wrap input:focus{
-    border-bottom-color:dodgerblue;
-}
-
-.field-wrap input:focus+label, .field-wrap input:valid+label{
-    top:4%;
-    tranform:none;
-    font-size:14px;
-    color:rgba(0,0,0,1);
-}
 
 
-
-#form{
-    max-width:500px;
-    width:100%;
-    background:#fff;
-    padding:40px 30px;
-    box-shadow:0 0 24px rgba(112, 144, 176, 0.2)
-}
 
 input, button{
     font-family: 'Montserrat', sans-serif;
@@ -66,18 +36,11 @@ input{
     outline:none;
 }
 
-.field-wrap{
-    margin-bottom: 10px;
-    padding:15px 20px;
-}
 
 label{
     font-size:20px;
 }
 
-.text-center{
-    text-align:center;
-}
 
 [type="submit"]{
     margin-top:22px;
@@ -98,13 +61,3 @@ label{
     color:#000;
 }
 
-h3{
-    text-align:center;
-    font-size:26px;
-    margin-bottom:25px;
-}
-
-.error{
-    color:red;
-    font-size:15px;
-}
